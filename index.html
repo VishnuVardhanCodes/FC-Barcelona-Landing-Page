@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FC BARCELONA - Official Site</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+ <header class="header">
+ <img src="barca.jpg" alt="Team Logo" class="logo" />
+
+  <h1>FC BARCELONA</h1>
+  <nav>
+    <a href="home.html" class="btn">Home</a>
+    <a href="players.html" class="btn">Players</a>
+    <a href="schedule.html" class="btn">Schedule</a>
+    <a href="tickets.html" class="btn">Tickets</a>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+    <div class="hero-content">
+  <h1 class="hero-title">WELCOME TO FC BARCELONA</h1>
+  <p class="hero-subtitle">Your Official Source for Team News, Matches, and More!</p>
+  <button class="hero-btn">Buy Tickets</button>
+  <button class="hero-btn secondary">Join Fan Club</button>
+</div>
+  </section>
+
+<!-- Player Profiles -->
+<section class="players">
+  <h2>Meet Our Players</h2>
+  <div class="player-grid">
+    <div class="player-card">
+      <img src="MESSI.jpeg" alt="Player 1" class="player-img" onclick="openFullScreen(this)">
+      <h3>Lionel Messi</h3>
+      <p>Position: Forward</p>
+      <p>Jersey #: 10</p>
+    </div>
+    <div class="player-card">
+      <img src="NEYMAR.jpg" alt="Player 2" class="player-img" onclick="openFullScreen(this)">
+      <h3>Neymar Jr</h3>
+      <p>Position: Left Winger</p>
+      <p>Jersey #: 11</p>
+    </div>
+    <div class="player-card">
+      <img src="YAMAL.jpeg" alt="Player 3" class="player-img" onclick="openFullScreen(this)">
+      <h3>Lamine Yamal</h3>
+      <p>Position: Winger</p>
+      <p>Jersey #: 19</p>
+    </div>
+    <div class="player-card">
+      <img src="suarez.jpeg" alt="Player 3" class="player-img" onclick="openFullScreen(this)">
+      <h3>Luis Suarez</h3>
+      <p>Position: Striker</p>
+      <p>Jersey #: 9</p>
+    </div>
+    <div class="player-card">
+      <img src="lewa.jpeg" alt="Player 3" class="player-img" onclick="openFullScreen(this)">
+      <h3>Robert Lewandowski</h3>
+      <p>Position: Winger</p>
+      <p>Jersey #: 9</p>
+    </div>
+  </div>
+</section>
+
+<!-- Fullscreen Overlay -->
+<div id="fullscreen-overlay" onclick="closeFullScreen()">
+  <img id="fullscreen-img" />
+</div>
+
+
+  <!-- Match Schedule -->
+  <!-- Schedule Section -->
+<section class="schedule">
+  <h2>Upcoming Matches</h2>
+  <div class="table-container">
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Location</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td>May 25, 2025</td>
+        <td>Real Madrid</td>
+        <td>Stadium A</td>
+        <td><a href="#" class="btn-small">Watch Live</a></td>
+      </tr>
+      <tr>
+        <td>June 2, 2025</td>
+        <td>PSG</td>
+        <td>Stadium B</td>
+        <td><a href="#" class="btn-small">Buy Tickets</a></td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Thunder FC. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
